@@ -1,0 +1,506 @@
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec4210926963/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec4210926963.dir/build.make CMakeFiles/cmTryCompileExec4210926963.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4210926963.dir/src.c.o
+/usr/bin/cc  -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTryCompileExec4210926963.dir/src.c.o   -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.c
+/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec4210926963.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4210926963.dir/src.c.o' failed
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4210926963.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec4210926963/fast' failed
+gmake: *** [cmTryCompileExec4210926963/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec1260683209/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec1260683209.dir/build.make CMakeFiles/cmTryCompileExec1260683209.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1260683209.dir/src.c.o
+/usr/bin/cc  -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec1260683209.dir/src.c.o   -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.c
+/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec1260683209.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1260683209.dir/src.c.o' failed
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1260683209.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1260683209/fast' failed
+gmake: *** [cmTryCompileExec1260683209/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec1335661598/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec1335661598.dir/build.make CMakeFiles/cmTryCompileExec1335661598.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1335661598.dir/src.c.o
+/usr/bin/cc  -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTryCompileExec1335661598.dir/src.c.o   -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '/openmp'
+CMakeFiles/cmTryCompileExec1335661598.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1335661598.dir/src.c.o' failed
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1335661598.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1335661598/fast' failed
+gmake: *** [cmTryCompileExec1335661598/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec2694162072/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec2694162072.dir/build.make CMakeFiles/cmTryCompileExec2694162072.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2694162072.dir/src.c.o
+/usr/bin/cc  -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTryCompileExec2694162072.dir/src.c.o   -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-Qopenmp'
+CMakeFiles/cmTryCompileExec2694162072.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2694162072.dir/src.c.o' failed
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2694162072.dir/src.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec2694162072/fast' failed
+gmake: *** [cmTryCompileExec2694162072/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec687874341/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec687874341.dir/build.make CMakeFiles/cmTryCompileExec687874341.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec687874341.dir/src.c.o
+/usr/bin/cc  -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTryCompileExec687874341.dir/src.c.o   -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.c
+/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec687874341.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec687874341.dir/src.c.o' failed
+gmake[1]: *** [CMakeFiles/cmTryCompileExec687874341.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec687874341/fast' failed
+gmake: *** [cmTryCompileExec687874341/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec2484505997/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec2484505997.dir/build.make CMakeFiles/cmTryCompileExec2484505997.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2484505997.dir/src.c.o
+/usr/bin/cc  -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTryCompileExec2484505997.dir/src.c.o   -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.c
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.c: 'linker' input unused
+CMakeFiles/cmTryCompileExec2484505997.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2484505997.dir/src.c.o' failed
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2484505997.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2484505997/fast' failed
+gmake: *** [cmTryCompileExec2484505997/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec3065135888/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec3065135888.dir/build.make CMakeFiles/cmTryCompileExec3065135888.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3065135888.dir/src.c.o
+/usr/bin/cc  -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTryCompileExec3065135888.dir/src.c.o   -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '+Oopenmp'
+CMakeFiles/cmTryCompileExec3065135888.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3065135888.dir/src.c.o' failed
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3065135888.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3065135888/fast' failed
+gmake: *** [cmTryCompileExec3065135888/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec1524546206/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec1524546206.dir/build.make CMakeFiles/cmTryCompileExec1524546206.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1524546206.dir/src.c.o
+/usr/bin/cc  -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTryCompileExec1524546206.dir/src.c.o   -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-qsmp'
+CMakeFiles/cmTryCompileExec1524546206.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1524546206.dir/src.c.o' failed
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1524546206.dir/src.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1524546206/fast' failed
+gmake: *** [cmTryCompileExec1524546206/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec3390745702/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec3390745702.dir/build.make CMakeFiles/cmTryCompileExec3390745702.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3390745702.dir/src.c.o
+/usr/bin/cc  -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTryCompileExec3390745702.dir/src.c.o   -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mp'
+CMakeFiles/cmTryCompileExec3390745702.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3390745702.dir/src.c.o' failed
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3390745702.dir/src.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3390745702/fast' failed
+gmake: *** [cmTryCompileExec3390745702/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec3231759977/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec3231759977.dir/build.make CMakeFiles/cmTryCompileExec3231759977.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3231759977.dir/src.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTryCompileExec3231759977.dir/src.cxx.o -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec3231759977.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3231759977.dir/src.cxx.o' failed
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3231759977.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3231759977/fast' failed
+gmake: *** [cmTryCompileExec3231759977/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec495249583/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec495249583.dir/build.make CMakeFiles/cmTryCompileExec495249583.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec495249583.dir/src.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec495249583.dir/src.cxx.o -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec495249583.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec495249583.dir/src.cxx.o' failed
+gmake[1]: *** [CMakeFiles/cmTryCompileExec495249583.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec495249583/fast' failed
+gmake: *** [cmTryCompileExec495249583/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec1599124562/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec1599124562.dir/build.make CMakeFiles/cmTryCompileExec1599124562.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1599124562.dir/src.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTryCompileExec1599124562.dir/src.cxx.o -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/openmp'
+CMakeFiles/cmTryCompileExec1599124562.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1599124562.dir/src.cxx.o' failed
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1599124562.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1599124562/fast' failed
+gmake: *** [cmTryCompileExec1599124562/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec1631816668/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec1631816668.dir/build.make CMakeFiles/cmTryCompileExec1631816668.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1631816668.dir/src.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTryCompileExec1631816668.dir/src.cxx.o -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-Qopenmp'
+CMakeFiles/cmTryCompileExec1631816668.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1631816668.dir/src.cxx.o' failed
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1631816668.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1631816668/fast' failed
+gmake: *** [cmTryCompileExec1631816668/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec3639155401/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec3639155401.dir/build.make CMakeFiles/cmTryCompileExec3639155401.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3639155401.dir/src.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTryCompileExec3639155401.dir/src.cxx.o -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec3639155401.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3639155401.dir/src.cxx.o' failed
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3639155401.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3639155401/fast' failed
+gmake: *** [cmTryCompileExec3639155401/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec3624403586/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec3624403586.dir/build.make CMakeFiles/cmTryCompileExec3624403586.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3624403586.dir/src.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTryCompileExec3624403586.dir/src.cxx.o -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.cxx: 'linker' input unused
+CMakeFiles/cmTryCompileExec3624403586.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3624403586.dir/src.cxx.o' failed
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3624403586.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3624403586/fast' failed
+gmake: *** [cmTryCompileExec3624403586/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec3806484581/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec3806484581.dir/build.make CMakeFiles/cmTryCompileExec3806484581.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3806484581.dir/src.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTryCompileExec3806484581.dir/src.cxx.o -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '+Oopenmp'
+CMakeFiles/cmTryCompileExec3806484581.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3806484581.dir/src.cxx.o' failed
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3806484581.dir/src.cxx.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3806484581/fast' failed
+gmake: *** [cmTryCompileExec3806484581/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec762026804/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec762026804.dir/build.make CMakeFiles/cmTryCompileExec762026804.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec762026804.dir/src.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTryCompileExec762026804.dir/src.cxx.o -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-qsmp'
+CMakeFiles/cmTryCompileExec762026804.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec762026804.dir/src.cxx.o' failed
+gmake[1]: *** [CMakeFiles/cmTryCompileExec762026804.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec762026804/fast' failed
+gmake: *** [cmTryCompileExec762026804/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/opt/local/bin/gmake" "cmTryCompileExec971585658/fast"
+/opt/local/bin/gmake -f CMakeFiles/cmTryCompileExec971585658.dir/build.make CMakeFiles/cmTryCompileExec971585658.dir/build
+gmake[1]: Entering directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+/opt/local/bin/cmake -E cmake_progress_report /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec971585658.dir/src.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTryCompileExec971585658.dir/src.cxx.o -c /Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mp'
+CMakeFiles/cmTryCompileExec971585658.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec971585658.dir/src.cxx.o' failed
+gmake[1]: *** [CMakeFiles/cmTryCompileExec971585658.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/Users/xinsun/Code/MyStuff/System/ORB_SLAM_OSX/ORB_SLAM_OSX/ORB_SLAM/Thirdparty/g2o/build/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec971585658/fast' failed
+gmake: *** [cmTryCompileExec971585658/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
